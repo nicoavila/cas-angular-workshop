@@ -1,6 +1,8 @@
 # Construyendo una aplicación web con Angular
 > Workshop online para Clínica Alemana de Santiago
 
+![Portada](docs/splash.png)
+
 # Herramientas necesarias
 * Node v12.16.1 (se recomienda usar [NVM](https://medium.com/devschile/m%C3%BAltiples-versiones-de-node-con-nvm-63b2ac715c38) para administración de versiones).
 * Angular CLI v9.0.7
@@ -17,6 +19,3 @@ npm install -g @angular/cli@9.0.7
 npm install
 ```
 4. Ejecutar `ng serve`.
-
-# Documentación
-
