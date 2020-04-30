@@ -1,27 +1,22 @@
-# CasAngularWorkshop
+# Construyendo una aplicación web con Angular
+> Workshop online para Clínica Alemana de Santiago
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
+# Herramientas necesarias
+* Node v12.16.1 (se recomienda usar [NVM](https://medium.com/devschile/m%C3%BAltiples-versiones-de-node-con-nvm-63b2ac715c38) para administración de versiones).
+* Angular CLI v9.0.7
 
-## Development server
+# Instalación
+0. Instalar NodeJS
+1. Instalar **Angular CLI**:
+```bash
+npm install -g @angular/cli@9.0.7
+```
+2. Clonar este repositorio.
+3. Dirigirse al directorio de la aplicación clonada e instalar las dependencias:
+```bash
+npm install
+```
+4. Ejecutar `ng serve`.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Documentación
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

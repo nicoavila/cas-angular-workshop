@@ -1,0 +1,8 @@
+<div class="search-container">
+  <div class="select">
+    <select (change)="selectCountry($event.target.value)">
+      <option>Selecciona un país</option>
+      <option *ngFor="let country of countries" value="{{ country.iso3 }}">{{ country.name }}</option>
+    </select>
+  </div>
+</div>

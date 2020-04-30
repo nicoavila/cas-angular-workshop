@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'cas-angular-workshop';
+  public selectedCountry;
+
+  public countryChanged(value) {
+    console.log(`(APP): El valor RECIBIDO del componente search es ${value}`);
+    this.selectedCountry = value;
+  }
 }
